@@ -13,7 +13,6 @@ export function Footer() {
   const legalLinks = [
     { name: "Privacy Policy", href: "/privacy" },
     { name: "Terms of Service", href: "/terms" },
-    { name: "Sitemap", href: "/sitemap.xml" },
   ]
 
   return (
@@ -26,13 +25,13 @@ export function Footer() {
               <div className="bg-gradient-to-r from-blue-500 to-green-500 p-2 rounded-xl">
                 <Wrench className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-bold">Toolify</span>
+              <span className="text-2xl font-bold">All Free Tools</span>
             </Link>
             <p className="text-gray-400 mb-6 max-w-md">
               Free online tools for everyone. No registration required, completely free to use. Make your daily tasks
               easier with our collection of web-based utilities.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Github className="h-5 w-5" />
               </a>
@@ -42,7 +41,7 @@ export function Footer() {
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Mail className="h-5 w-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Tool Categories */}
@@ -75,7 +74,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400">© 2025 Toolify. All rights reserved. Made with ❤️ for the community.</p>
+          <p className="text-gray-400">© 2025 All Free Tools. All rights reserved.</p>
         </div>
       </div>
     </footer>

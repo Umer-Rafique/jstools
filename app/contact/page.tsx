@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Toolify - Get in Touch",
+  title: "Contact All Free Tools - Get in Touch",
   description:
-    "Contact Toolify for support, suggestions, or feedback. We love hearing from our users and are always looking to improve.",
+    "Contact AFT(All Free Tools) for support, suggestions, or feedback. We love hearing from our users and are always looking to improve."
 }
 
 export default function ContactPage() {
@@ -24,7 +24,7 @@ export default function ContactPage() {
               <div className="space-y-4">
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">hello@toolify.com</p>
+                  <p className="text-gray-600">hello@allfreetools.net</p>
                 </div>
 
                 <div>

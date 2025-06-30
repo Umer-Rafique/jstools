@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Toolify",
+  title: "Privacy Policy - AFT",
   description:
-    "Privacy policy for Toolify. Learn how we protect your data and privacy when using our free online tools.",
+    "Privacy policy for AFT(All Free Tools). Learn how we protect your data and privacy when using our free online tools.",
 }
 
 export default function PrivacyPage() {
@@ -20,7 +20,7 @@ export default function PrivacyPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Commitment to Privacy</h2>
             <p className="text-gray-700 mb-6">
-              At Toolify, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use,
+              At AFT, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use,
               and safeguard your information when you use our website and online tools.
             </p>
 

@@ -4,7 +4,7 @@ import { AdBanner } from "@/components/ad-banner"
 import { SearchTools } from "@/components/search-tools"
 
 export const metadata: Metadata = {
-  title: "All Tools - Free Online Tools Collection | Toolify",
+  title: "All Tools - Free Online Tools Collection | AFT(All Free Tools)",
   description:
     "Browse our complete collection of free online tools. Text tools, math calculators, design utilities, developer tools, and social media generators.",
   keywords: "online tools, free tools, text tools, calculators, generators, utilities",
