@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { ToolsGrid } from "@/components/tools-grid"
 import { AdBanner } from "@/components/ad-banner"
 import { SearchTools } from "@/components/search-tools"
+import { Suspense } from "react"
 
 export const metadata: Metadata = {
   title: "All Tools - Free Online Tools Collection | AFT(All Free Tools)",
@@ -17,13 +18,16 @@ export default function AllToolsPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">All Tools</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Browse our complete collection of free online tools designed to make your tasks easier
+            Browse our complete collection of free online tools designed to make
+            your tasks easier
           </p>
           <SearchTools />
         </div>
 
         <AdBanner position="top" className="mb-8" />
-        <ToolsGrid />
+        <Suspense>
+          <ToolsGrid />
+        </Suspense>
         <AdBanner position="bottom" className="mt-8" />
       </div>
     </div>

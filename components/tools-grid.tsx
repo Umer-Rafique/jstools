@@ -82,7 +82,7 @@ const tools = [
 
 export function ToolsGrid() {
   const searchParams = useSearchParams()
-  const category = searchParams.get("category") // e.g., ?category=Text%20Tools
+  const category = searchParams.get("category")
 
   const filteredTools = category
     ? tools.filter((tool) => tool.category === category)
