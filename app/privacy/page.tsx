@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - AFT",
+  title: "Privacy Policy - Tools",
   description:
     "Privacy policy for AFT(All Free Tools). Learn how we protect your data and privacy when using our free online tools.",
 }
