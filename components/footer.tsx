@@ -25,7 +25,7 @@ export function Footer() {
               <div className="bg-gradient-to-r from-blue-500 to-green-500 p-2 rounded-xl">
                 <Wrench className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-bold">All Free Tools</span>
+              <span className="text-2xl font-bold">Tools</span>
             </Link>
             <p className="text-gray-400 mb-6 max-w-md">
               Free online tools for everyone. No registration required, completely free to use. Make your daily tasks
@@ -74,7 +74,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400">© 2025 All Free Tools. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Tools. All rights reserved.</p>
         </div>
       </div>
     </footer>

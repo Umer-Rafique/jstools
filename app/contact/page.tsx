@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact All Free Tools - Get in Touch",
+  title: "Contact Tools - Get in Touch",
   description:
     "Contact AFT(All Free Tools) for support, suggestions, or feedback. We love hearing from our users and are always looking to improve."
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Terms of Service - AFT",
+  title: "Terms of Service - Tools",
   description: "Terms of service for AFT(All Free Tools). Read our terms and conditions for using our free online tools.",
 }
 
