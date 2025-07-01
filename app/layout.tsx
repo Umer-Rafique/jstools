@@ -59,7 +59,11 @@ export default function RootLayout({
         <title>Ruyaat – Visionary Learning Platform</title>
         <meta
           name="description"
-          content="Ruyaat blends ancient wisdom with modern education."
+          content="Access free online tools including Word Counter, Text to Emoji Converter, Name Styler, Instagram Bio Generator, Percentage Calculator, and more. No login required, completely free to use."
+        />
+        <meta
+          name="google-site-verification"
+          content="vZ0XSAxt63FO0BbJTKp0DeVr5IJ5_JIe5tb9sw64-Ys"
         />
         <Script
           id="structured-data"
